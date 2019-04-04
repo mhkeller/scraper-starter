@@ -11,7 +11,7 @@ async function main () {
 	const browser = await puppeteer.launch({ headless: false });
 	const page = await browser.newPage();
 
-	const targetUrl = `https://www.facebook.com/adsmanager/creation`;
+	const targetUrl = `https://www.mysite-to-scrape.com`; // TODO, put this in some kind of config.
 
 	await authenticate(page, targetUrl, authConfig);
 
