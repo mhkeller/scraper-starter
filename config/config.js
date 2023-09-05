@@ -1,3 +1,10 @@
+import dotenv from 'dotenv';
+
+/**
+ * Config
+ */
+dotenv.config();
+
 /**
  * This page should be behind authentication
  */
