@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "keybase://private/mhkeller/automadic"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +15,13 @@
   "dependencies": {
     "@mhkeller/utils": "^6.0.1",
     "dotenv": "^7.0.0",
+    "eslint-config-standard": "^17.1.0",
     "playwright": "^1.37.1",
     "playwright-extra": "^4.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-plugin-import": "^2.28.1"
   }
 }

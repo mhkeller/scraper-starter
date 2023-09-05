@@ -1,4 +1,4 @@
-import { launchBrowser, wait, writeSync } from '@mhkeller/utils';
+import { launchBrowser } from '@mhkeller/utils';
 import { chromium } from 'playwright-extra';
 import stealth from 'puppeteer-extra-plugin-stealth';
 
