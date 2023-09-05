@@ -1,4 +1,4 @@
-import { launchBrowser } from '@mhkeller/utils';
+import { launchBrowser } from '@mhkeller/utils/scrape';
 import { chromium } from 'playwright-extra';
 import stealth from 'puppeteer-extra-plugin-stealth';
 
@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 
 import authenticate from './lib/authenticate.js';
 
-import { targetUrl } from './config/config.js';
+import { targetUrl } from '../config/config.js';
 
 /**
  * Config
