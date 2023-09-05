@@ -19,7 +19,6 @@ const { browser, page } = await launchBrowser({ headless: false });
 
 await authenticate(page, targetUrl);
 
-
 /* --------------------------------------------
 	* Click into the audience input element, which will bring up the map
 	*/
