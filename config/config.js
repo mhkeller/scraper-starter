@@ -6,8 +6,8 @@ export const targetUrl = 'https://my-site.com';
 /**
  * Credentials
  */
-export const username = process.env.SCRAPER_USERNAME || '';
-export const password = process.env.SCRAPER_PASSWORD || '';
+export const username = process.env.SCRAPER_USERNAME;
+export const password = process.env.SCRAPER_PASSWORD;
 
 /**
  * Selectors for login form
