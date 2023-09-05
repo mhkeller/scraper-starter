@@ -10,7 +10,7 @@ chromium.use(stealth());
 
 const { browser, page } = await launchBrowser({ headless: false });
 
-await authenticate(page, targetUrl);
+await authenticate(browser, page, targetUrl);
 
 /* --------------------------------------------
 	* Click into the audience input element, which will bring up the map
