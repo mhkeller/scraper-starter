@@ -5,6 +5,9 @@ import { targetUrl } from './config/config.js';
 
 const { browserContext, page } = await launchBrowser({ headless: false });
 
+/**
+ * Skip this step if you don't need to hit a login page
+ */
 await authenticate(browserContext, page, targetUrl);
 
 /* --------------------------------------------
