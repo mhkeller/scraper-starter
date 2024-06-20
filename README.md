@@ -1,6 +1,8 @@
 Scraper starter
 ===
 
+> Playwright starter template. Logs in using provided credentials and saves cookies for later runs.
+
 ## Install deps
 
 ```
