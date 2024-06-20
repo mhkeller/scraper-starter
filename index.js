@@ -13,4 +13,10 @@ await authenticate(browserContext, page, targetUrl);
 const searchBar = await page.locator('input[name="search"]')
 
 await searchBar.type('testing', { delay: 100 });
+
+/**
+ * Uncomment this in production but leave it
+ * commented out for development so you can
+ * inspect the page
+ */
 // await browser.close();
