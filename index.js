@@ -1,12 +1,15 @@
-import { chromium } from 'playwright-extra';
-import stealth from 'puppeteer-extra-plugin-stealth';
+/**
+ * Uncomment to use stealth plugin
+ */
+// import { chromium } from 'playwright-extra';
+// import stealth from 'puppeteer-extra-plugin-stealth';
 
 import authenticate from './lib/authenticate.js';
 import launchBrowser from './lib/launchBrowser.js';
 
 import { targetUrl } from './config/config.js';
 
-chromium.use(stealth());
+// chromium.use(stealth());
 
 const { browserContext, page } = await launchBrowser({ headless: false });
 
