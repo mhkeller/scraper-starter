@@ -27,4 +27,3 @@ export const loginButtonSelector = '#loginbutton';
  * Where to save cookies
  */
 export const cookiesPath = 'config/cookies.json';
-

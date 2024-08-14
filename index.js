@@ -11,9 +11,9 @@ const { browserContext, page } = await launchBrowser({ headless: false });
 await authenticate(browserContext, page, targetUrl);
 
 /* --------------------------------------------
-	* Type a name into the discovery search bar
-	*/
-const searchBar = await page.locator('input[name="search"]')
+ * Type a name into the discovery search bar
+ */
+const searchBar = await page.locator('input[name="search"]');
 
 await searchBar.type('testing', { delay: 100 });
 
